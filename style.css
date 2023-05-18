@@ -85,7 +85,6 @@ p {
 .blind-ver:hover {
     background: white;
     color: black;
-    border: black 2px solid;
     cursor: pointer;
 }
 
@@ -98,7 +97,6 @@ p {
     background-position: left bottom -2px, left 58vw bottom -90px, left -400px top 100px;
     background-repeat: no-repeat;
     background-size: 100%, 650px, 2565px;
-
 }
 
 .first-header {
@@ -215,6 +213,14 @@ section {
 .news h2 {
     font-size: 40px;
     color: #4F4F4F;
+}
+
+.news h2:hover {
+    color: #737373;
+}
+
+.news a {
+    text-decoration: none;
 }
 
 .news-block {
