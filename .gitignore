@@ -7,6 +7,7 @@
 
 # idk
 .idea
+/posts
 /images/posts
 /sendmail.php
 /phpmailer
