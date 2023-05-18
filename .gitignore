@@ -1,0 +1,13 @@
+# stolen from the template
+*.sketch
+*.fig
+*.xd
+.DS_Store
+.prettierignore
+
+# idk
+.idea
+/posts
+/images/posts
+/sendmail.php
+/phpmailer
