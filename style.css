@@ -1274,7 +1274,6 @@ footer {
     .blind-ver:hover {
         background: white;
         color: black;
-        border: black 2px solid;
         cursor: pointer;
     }
 
@@ -1319,6 +1318,8 @@ footer {
     .blind-ver {
         padding: 10px 15px;
         font-size: 22px;
+        max-width: 70vw;
+
     }
 
     .first {
@@ -1473,7 +1474,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 600px;
+        height: 520px;
         background-color: #1594A9;
         background-image: url("images/generic/border-top.svg"),
         url("images/generic/border-bottom.svg"),
@@ -1545,13 +1546,10 @@ footer {
         margin-top: -220px;
     }
 
-    .associations-button:hover {
-        background: #ffb500;
-        transition: 300ms cubic-bezier(.5, 0, 0, 1);
-    }
-
-    .associations-button:focus {
-        background: #ffb500;
+    .associations-button {
+        font-size: 18px;
+        width: 180px;
+        height: 42px;
     }
 
     .about-us {
@@ -1781,6 +1779,5 @@ footer {
         font-size: 17px;
         margin-left: 0;
     }
-
 
 }
