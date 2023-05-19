@@ -1365,11 +1365,11 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100vw;
+        width: 90vw;
     }
 
     .bottom-section {
-        width: 100vw;
+        width: 90vw;
     }
 
     .title {
@@ -1719,7 +1719,7 @@ footer {
     }
 
     .resources img {
-        max-width: 100vw;
+        max-width: 90vw;
         margin: 0;
     }
 
