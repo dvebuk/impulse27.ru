@@ -521,6 +521,7 @@ section {
     font-weight: 700;
     font-size: 18px;
     color: #3B3B3B;
+    cursor: pointer;
 }
 
 .form-button:hover {
@@ -718,7 +719,7 @@ footer {
 .universal ul {
     list-style: disc;
     font-size: 24px;
-    color: #4F4F4F;
+    color: #2c2c2c;
 }
 
 .universal-navigation {
@@ -817,6 +818,95 @@ footer {
 
 .worker a {
     color: #4F4F4F;
+}
+
+.group-page {
+    background: #EFEDED;
+    display: flex;
+    justify-content: center;
+}
+
+.group-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1200px;
+    max-width: 85%;
+}
+
+.groups {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.group-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 270px;
+    height: 430px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.group-card-section img {
+    width: 270px;
+    height: 220px;
+    border-radius: 15px;
+}
+
+.group-card-section h2 {
+    font-size: 36px;
+    text-decoration: none;
+    color: #4F4F4F;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.group-button {
+    width: 181px;
+    height: 42px;
+    border-radius: 100vh;
+    border: none;
+    background: #FAC433;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #3B3B3B;
+    cursor: pointer;
+}
+
+.group-button:hover {
+    background: #ffb500;
+    transition: 300ms cubic-bezier(.5, 0, 0, 1);
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.gallery a {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.gallery h2 {
+    width: 100%;
 }
 
 @media screen and (min-width: 1367px) and (max-width: 1536px) {
