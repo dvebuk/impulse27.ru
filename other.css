@@ -789,6 +789,10 @@ footer {
     border: 1px #d3d2d2 solid;
 }
 
+li {
+    font-size: inherit;
+}
+
 .worker {
     display: flex;
     flex-direction: row;
