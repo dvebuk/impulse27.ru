@@ -179,9 +179,8 @@ section {
 
 .top-section img {
     width: 585px;
-    height: 253px;
+    height: 284px;
     border-radius: 10px;
-    margin-bottom: 10px;
 }
 
 .contest {
@@ -1189,11 +1188,6 @@ footer {
         margin-bottom: 10px;
     }
 
-    .about-us-link {
-        font-weight: 700;
-        color: #1594A9 !important;
-    }
-
     .resources {
         justify-content: center;
     }
@@ -1381,6 +1375,11 @@ footer {
         flex-direction: column;
     }
 
+    .main .title {
+        font-size: 35px;
+        margin: 10px 0 -5px 0;
+    }
+
     .top-section {
         display: flex;
         flex-direction: column-reverse;
@@ -1515,13 +1514,17 @@ footer {
         margin: 10px 0 10px 0;
     }
 
+    .associations-list a {
+        width: 45vw;
+    }
+
     .associations-list-left {
         margin: 0 0 20px 0;
         justify-content: center;
         width: 100%;
     }
 
-    .associations-list-left .association-card:nth-child(1) {
+    .associations-list-left a:nth-child(1) {
         margin-right: 10px;
     }
 
@@ -1531,7 +1534,7 @@ footer {
         width: 100%;
     }
 
-    .associations-list-right .association-card:nth-child(1) {
+    .associations-list-right a:nth-child(1) {
         margin-right: 10px;
     }
 
@@ -1589,9 +1592,9 @@ footer {
         margin-bottom: 10px;
     }
 
-    .about-us-link {
-        font-weight: 700;
-        color: #1594A9 !important;
+    .advertisement .title {
+        font-size: 35px;
+        margin-top: 20px;
     }
 
     .feedback {
